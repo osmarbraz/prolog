@@ -1,0 +1,11 @@
+classe('mamifero') :- patas(1),glmamarias(1),pelo(1),nadadeiras(2),branquias(2),oviparo(2),asa(2).
+assertClasse('mamifero') :- assert(patas(1)),assert(glmamarias(1)),assert(pelo(1)),assert(nadadeiras(2)),assert(branquias(2)),assert(oviparo(2)),assert(asa(2)).
+animal('cachorro', 'mamifero').
+classe(anonimous) :- patas(2),glmamarias(2),pelo(2),nadadeiras(2),branquias(2),oviparo(2),asa(2).
+assertClasse(anonimous) :- assert(patas(2)),assert(glmamarias(2)),assert(pelo(2)),assert(nadadeiras(2)),assert(branquias(2)),assert(oviparo(2)),assert(asa(2)).
+animal(chinforimpula, anonimous).
+animal(churros, anonimous).
+animal(cavalo, mamifero).
+classe(maluco) :- patas(2),glmamarias(2),pelo(1),nadadeiras(1),branquias(1),oviparo(1),asa(1).
+classe(mamiferos) :- patas(1),glmamarias(1),pelo(1),nadadeiras(2),branquias(2),oviparo(2),asa(2).
+animal(vaca, mamifero).
